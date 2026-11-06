@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg: #081120;
   --bg-soft: #0f1b2d;
   --panel: rgba(19, 31, 52, 0.75);
@@ -34,7 +34,7 @@ body {
   background-color: var(--bg);
   background-image:
     linear-gradient(rgba(8, 17, 32, 0.34), rgba(8, 17, 32, 0.52)),
-    url("images-upload/moody-workspace-wall.png");
+    url("../images/moody-workspace-wall.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1800,7 +1800,7 @@ button {
   overflow: hidden;
   background:
     linear-gradient(rgba(8, 17, 32, 0.58), rgba(8, 17, 32, 0.7)),
-    url("images-upload/moody-workspace-wall.png") center / cover no-repeat;
+    url("../images/moody-workspace-wall.png") center / cover no-repeat;
   border-radius: 28px;
 }
 
@@ -2785,7 +2785,7 @@ main > section:not(#home)::before {
   z-index: -1;
   background:
     linear-gradient(rgba(11, 17, 32, 0.62), rgba(11, 17, 32, 0.72)),
-    url("images-upload/moody-workspace-wall.png") center / cover no-repeat;
+    url("../images/moody-workspace-wall.png") center / cover no-repeat;
   background-attachment: fixed;
   pointer-events: none;
 }
@@ -2818,7 +2818,7 @@ main > section:not(#home)::before {
   z-index: -1;
   background:
     linear-gradient(rgba(11, 17, 32, 0.62), rgba(11, 17, 32, 0.74)),
-    url("images-upload/moody-workspace-wall.png") center / cover no-repeat;
+    url("../images/moody-workspace-wall.png") center / cover no-repeat;
   background-attachment: fixed;
   pointer-events: none;
 }
@@ -2833,7 +2833,7 @@ main > section:not(#home)::before {
 #home {
   background:
     linear-gradient(rgba(11, 17, 32, 0.3), rgba(11, 17, 32, 0.48)),
-    url("images-upload/home-workspace-wall.png") center / cover no-repeat;
+    url("../images/home-workspace-wall.png") center / cover no-repeat;
   background-attachment: fixed;
 }
 
@@ -4512,3 +4512,4 @@ body::after {
     bottom: 2%;
   }
 }
+
