@@ -1151,9 +1151,9 @@ body.cursor-ready .cursor-ring {
   z-index: 1;
   top: 0;
   bottom: 0;
-  width: 50.5%;
-  background: radial-gradient(ellipse at 50% 50%, rgba(54, 205, 186, 0.1), transparent 58%), linear-gradient(135deg, rgba(10, 28, 29, 0.24), rgba(5, 9, 13, 0.08));
-  box-shadow: 0 0 80px rgba(51, 219, 196, 0.1);
+  width: 50%;
+  background: linear-gradient(135deg, rgba(10, 28, 29, 0.08), rgba(5, 9, 13, 0.025));
+  box-shadow: 0 0 48px rgba(51, 219, 196, 0.055);
   transition: transform 1.15s cubic-bezier(0.77, 0, 0.18, 1), box-shadow 1.15s ease;
 }
 
@@ -1187,6 +1187,7 @@ body.cursor-ready .cursor-ring {
 
 .section-transition.is-opening .section-transition-backdrop {
   opacity: 0;
+  transition-delay: 0.65s;
 }
 
 .section-transition.is-opening .section-transition-title {
