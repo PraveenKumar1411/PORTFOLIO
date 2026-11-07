@@ -1137,7 +1137,7 @@ body.cursor-ready .cursor-ring {
   z-index: 0;
   background: url("../images/navbar-transition-bg-original.png") center / cover no-repeat;
   opacity: 1;
-  transition: opacity 1.15s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: opacity 0.6s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
 .section-transition.is-live {
@@ -1154,7 +1154,7 @@ body.cursor-ready .cursor-ring {
   width: 50%;
   background: linear-gradient(135deg, rgba(10, 28, 29, 0.08), rgba(5, 9, 13, 0.025));
   box-shadow: 0 0 48px rgba(51, 219, 196, 0.055);
-  transition: transform 1.15s cubic-bezier(0.77, 0, 0.18, 1), box-shadow 1.15s ease;
+  transition: transform 0.9s cubic-bezier(0.77, 0, 0.18, 1), box-shadow 0.9s ease;
 }
 
 .section-transition::before {
@@ -1187,7 +1187,7 @@ body.cursor-ready .cursor-ring {
 
 .section-transition.is-opening .section-transition-backdrop {
   opacity: 0;
-  transition-delay: 0.65s;
+  transition-delay: 0.25s;
 }
 
 .section-transition.is-opening .section-transition-title {
@@ -3009,8 +3009,8 @@ main > section {
 .section-transition::before,
 .section-transition::after {
   transition:
-    transform 1.35s cubic-bezier(0.76, 0, 0.24, 1),
-    box-shadow 1.35s ease;
+    transform 0.9s cubic-bezier(0.76, 0, 0.24, 1),
+    box-shadow 0.9s ease;
 }
 
 .section-transition-title {

@@ -260,14 +260,14 @@ const openSectionWithTransition = (sectionId) => {
 
   window.setTimeout(() => {
     transition.classList.add('is-opening');
-  }, 560);
+  }, 300);
 
   window.setTimeout(() => {
     transition.remove();
     document.body.classList.remove('intro-active');
     section.scrollIntoView({ behavior: 'smooth', block: 'start' });
     sectionTransitionActive = false;
-  }, 1950);
+  }, 1400);
 };
 
 sectionLinks.forEach((link) => {
