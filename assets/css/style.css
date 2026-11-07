@@ -1152,10 +1152,8 @@ body.cursor-ready .cursor-ring {
   top: 0;
   bottom: 0;
   width: 50%;
-  background:
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.018) 0 2%, rgba(0, 0, 0, 0.08) 7%, transparent 14%, rgba(255, 255, 255, 0.025) 21%, transparent 28%),
-    linear-gradient(90deg, rgba(2, 7, 12, 0.94), rgba(5, 20, 23, 0.78) 18%, rgba(1, 5, 8, 0.9) 36%, rgba(5, 20, 23, 0.76) 54%, rgba(1, 5, 8, 0.92) 74%, rgba(5, 17, 20, 0.82) 88%, rgba(1, 4, 8, 0.96));
-  box-shadow: inset -22px 0 38px rgba(0, 0, 0, 0.26), inset 0 0 70px rgba(28, 182, 162, 0.045);
+  background: linear-gradient(135deg, rgba(10, 28, 29, 0.08), rgba(5, 9, 13, 0.025));
+  box-shadow: 0 0 48px rgba(51, 219, 196, 0.055);
   transition: transform 0.9s cubic-bezier(0.77, 0, 0.18, 1), box-shadow 0.9s ease;
   will-change: transform;
 }
@@ -1167,8 +1165,6 @@ body.cursor-ready .cursor-ring {
 
 .section-transition::after {
   right: 0;
-  background-position: right center;
-  box-shadow: inset 22px 0 38px rgba(0, 0, 0, 0.26), inset 0 0 70px rgba(28, 182, 162, 0.045);
 }
 
 .section-transition-title {
