@@ -1135,7 +1135,7 @@ body.cursor-ready .cursor-ring {
   position: absolute;
   inset: 0;
   z-index: 0;
-  background: url("../images/navbar-transition-teal-bg.png") center / cover no-repeat;
+  background: url("../images/navbar-transition-bg-original.png") center / cover no-repeat;
   opacity: 1;
   transition: opacity 1.15s cubic-bezier(0.76, 0, 0.24, 1);
 }
